@@ -1,0 +1,28 @@
+{
+	"lock": false,
+	"tasks": {
+	},
+	"imports": {
+		"@std/async": "jsr:@std/async@^1.0.8",
+		"@std/cache": "jsr:@std/cache@^0.1.3"
+	},
+	"fmt": {
+		"semiColons": false,
+		"useTabs": true,
+		"lineWidth": 120,
+		"indentWidth": 4,
+		"singleQuote": true,
+		"proseWrap": "preserve",
+		"exclude": ["README.md"]
+	},
+	"compilerOptions": { "strict": true },
+	"lint": {
+		"exclude": [],
+		"rules": {
+			"tags": ["recommended"],
+			"exclude": [],
+			"include": []
+		}
+	},
+	"exclude": []
+}
